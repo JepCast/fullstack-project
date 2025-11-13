@@ -13,6 +13,7 @@ const dbConfig = {
   }
 };
 
+
 let poolPromise;
 async function getConnection() {
   if (!poolPromise) {
